@@ -18,6 +18,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
     //이동하는 시점에 해당 화면으로 이동
+    //about모듈에 포함되는 About.vue. 해당 페이지로 이동할 때 모듈이 다운받아진다
   }
 ]
 
