@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div id="app" class="d-flex flex-column vh-100">
     <AppHeader/>
     <div class="flex-grow-1 container-fluid">
@@ -19,15 +18,6 @@
           </div>
         </div>
       </div>
-=======
-  <div id="app">
-    <div id="nav">
-      <!--SPA방식-->
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> | 
-      <!--MPA방식-->
-      <!--<a href="/">Home</a>-->
->>>>>>> 8716588... test commit
     </div>
   </div>
 </template>
