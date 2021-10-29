@@ -23,5 +23,10 @@
       <router-link to="/menu02/exam06ComputedBinding" class="nav-link text-warning">계산된 바인딩</router-link>
       <router-link to="/menu02/exam07Template" class="nav-link text-warning">템플릿 바인딩</router-link>
     </li>
+    <li class="nac-item">
+      <h6 class="text-white">Menu03 : Event Handling & Watch</h6>
+      <router-link to="/menu03/exam01eventhandling" class="nav-link text-warning">이벤트 처리</router-link>
+      <router-link to="/menu03/exam02watch" class="nav-link text-warning">데이터 변경 감시</router-link>
+    </li>
   </ul>
 </template>
