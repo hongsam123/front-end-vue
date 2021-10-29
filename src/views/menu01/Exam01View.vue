@@ -2,7 +2,7 @@
 <template>
   <div class="card">
     <div class="card-header">
-      Exam01View
+      <span class="title">Exam01View</span>
     </div>
   <div class="card-body">
     <h6>선언적 방식 네비게이션</h6>
@@ -35,5 +35,7 @@ export default {
 <!--컴포넌트 스타일 정의-->
 <!--scoped를 생략하면 전역으로 사용-->
 <style scoped>
-
+.title{
+  color:green
+}
 </style>

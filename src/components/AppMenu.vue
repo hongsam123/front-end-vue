@@ -13,5 +13,15 @@
       <router-link to="/menu01/exam04view" class="nav-link text-warning">이름이 있는 뷰</router-link>
       <router-link to="/menu01/exam05view" class="nav-link text-warning">URL 데이터 전달</router-link>
     </li>
+    <li class="nac-item">
+      <h6 class="text-white">Menu02 : Component</h6>
+      <router-link to="/menu02/exam01expressions" class="nav-link text-warning">표현식 바인딩</router-link>
+      <router-link to="/menu02/exam02directives" class="nav-link text-warning">디렉티브 바인딩</router-link>
+      <router-link to="/menu02/exam03attrbinding" class="nav-link text-warning">속성 바인딩</router-link>
+      <router-link to="/menu02/exam04formbinding" class="nav-link text-warning">양방향 바인딩</router-link>
+      <router-link to="/menu02/exam05ForRepeatBinding" class="nav-link text-warning">반복 바인딩</router-link>
+      <router-link to="/menu02/exam06ComputedBinding" class="nav-link text-warning">계산된 바인딩</router-link>
+      <router-link to="/menu02/exam07Template" class="nav-link text-warning">템플릿 바인딩</router-link>
+    </li>
   </ul>
 </template>
