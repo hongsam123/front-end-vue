@@ -35,5 +35,9 @@
       <router-link to="/menu04/exam03inject" class="nav-link text-warning">의존 데이터 삽입(inject 이용)</router-link>
       <router-link to="/menu04/exam04ref" class="nav-link text-warning">Ref를 이용한 접근</router-link>
     </li>
+    <li class="nac-item">
+      <h6 class="text-white">Menu05 : LifeCycle Hook</h6>
+      <router-link to="/menu05/exam01lifecyclehook" class="nav-link text-warning">라이프사이클 훅</router-link>
+    </li>
   </ul>
 </template>

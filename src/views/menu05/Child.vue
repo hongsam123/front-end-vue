@@ -5,10 +5,7 @@
       Child
     </div>
     <div class="card-body">
-      <p>data:{{data}}</p>
-      <hr/>
-       <button class="btn btn-sm btn-info mr-2" @click="handleParentData">부모 데이터 읽기</button>
-      <button class="btn btn-sm btn-info mr-2" @click="handleParentMethod">부모 메소드 호출</button>
+      <p>data: {{data}}</p>
     </div>
   </div>
 </template>
@@ -23,21 +20,19 @@ export default {
   //컴포넌트 데이터 정의
   data: function() {
     return {
-      data:"child-data"
     };
   },
   //컴포넌트 메소드 정의
   methods:{
-    childMethod() {
-      console.log("childMethod() 실행");
-    },
-    handleParentData(){
-      console.log(this.$parent.data);
-    },
-    handleParentMethod() {
-      console.log(this.$parent.parentMethod);
-    }
-  }
+  },
+  props:["data"],
+  //LifeCycle Hook 정의
+  beforeUpdate() {
+    console.log("child beforeUpdate state");
+  },
+  updated() {
+    console.log("child updated state");
+  },
 }
 </script>
 
