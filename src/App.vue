@@ -31,6 +31,10 @@ export default {
   components: {
     AppHeader,
     AppMenu,
+  },
+  //lifecycle hook 재정의
+  created() {
+    this.$store.dispatch("loadAuth"); //매개값 필요하지 않음
   }
 }
 </script>
