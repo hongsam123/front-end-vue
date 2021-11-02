@@ -39,5 +39,10 @@
       <h6 class="text-white">Menu05 : LifeCycle Hook</h6>
       <router-link to="/menu05/exam01lifecyclehook" class="nav-link text-warning">라이프사이클 훅</router-link>
     </li>
+    <li class="nac-item">
+      <h6 class="text-white">Menu06 : Vuex State Management</h6>
+      <router-link to="/menu06/exam01rootstate" class="nav-link text-warning">루트 상태 읽기 및 변경</router-link>
+      <router-link to="/menu06/exam02counterstate" class="nav-link text-warning">하위 상태 읽기 및 변경</router-link>
+    </li>
   </ul>
 </template>
