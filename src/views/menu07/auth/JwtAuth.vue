@@ -122,6 +122,8 @@ export default {
       }
     },
     async handleLogin() {
+      this.loading = true;
+      this.alertDialog = true;
       try {
         const response = await auth.login(this.user);
         this.$store.dispatch("saveAuth",{
